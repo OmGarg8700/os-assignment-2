@@ -9,7 +9,7 @@
 #include<time.h>
 
 int main(){
-    printf("For process 1: \n");
+    // printf("For process 1: \n");
     struct timespec end; 
 
     struct timespec t1, t2, t3;
@@ -26,16 +26,16 @@ int main(){
 
         char temp[10];
         sprintf(temp, "%d", getpid());
-        printf("%s", temp);
+        // printf("%s", temp);
 
         char command[100] = "/usr/bin/chrt -f -p 7 ";
         strcat(command, temp);
         system(command);
         
-        char comm[] = "/usr/bin/chrt -p ";
-        strcat(comm, temp);
+        // char comm[] = "/usr/bin/chrt -p ";
+        // strcat(comm, temp);
 
-        system(comm);
+        // system(comm);
 
         char* comm_[2] = {NULL};
         execvp("./new.sh", comm_);
@@ -45,7 +45,7 @@ int main(){
     // printf("Execution time is: %f \n", (t1.tv_nsec) - initial);
 
 
-    printf("For process 2: \n");
+    // printf("For process 2: \n");
 
     // struct timespec t1,t2;
     // clock_gettime(CLOCK_MONOTONIC, &t1);
@@ -63,16 +63,16 @@ int main(){
 
         char temp[10];
         sprintf(temp, "%d", getpid());
-        printf("%s", temp);
+        // printf("%s", temp);
 
         char command[100] = "/usr/bin/chrt -f -p 2 ";
         strcat(command, temp);
         system(command);
         
-        char comm[] = "/usr/bin/chrt -p ";
-        strcat(comm, temp);
+        // char comm[] = "/usr/bin/chrt -p ";
+        // strcat(comm, temp);
 
-        system(comm);
+        // system(comm);
 
         char* comm_[2] = {NULL};
         execvp("./new.sh", comm_);
@@ -82,7 +82,7 @@ int main(){
     // printf("Execution time is: %f \n", (t1.tv_nsec) - initial);
 
 
-    printf("For process 3: \n");
+    // printf("For process 3: \n");
 
     // struct timespec t1,t2;
     // clock_gettime(CLOCK_MONOTONIC, &t1);
@@ -98,16 +98,16 @@ int main(){
 
         char temp[10];
         sprintf(temp, "%d", getpid());
-        printf("%s", temp);
+        // printf("%s", temp);
 
         char command[100] = "/usr/bin/chrt -f -p 50 ";
         strcat(command, temp);
         system(command);
         
-        char comm[] = "/usr/bin/chrt -p ";
-        strcat(comm, temp);
+        // char comm[] = "/usr/bin/chrt -p ";
+        // strcat(comm, temp);
 
-        system(comm);
+        // system(comm);
 
         char* comm_[2] = {NULL};
         execvp("./new.sh", comm_);
