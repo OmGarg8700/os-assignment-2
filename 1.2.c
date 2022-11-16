@@ -38,7 +38,7 @@ int main(){
         // system(comm);
 
         char* comm_[2] = {NULL};
-        execvp("./new.sh", comm_);
+        execvp("./kernel1.sh", comm_);
     }
     // clock_gettime(CLOCK_MONOTONIC, &t2);
 
@@ -75,7 +75,7 @@ int main(){
         // system(comm);
 
         char* comm_[2] = {NULL};
-        execvp("./new.sh", comm_);
+        execvp("./kernel2.sh", comm_);
     }
     // clock_gettime(CLOCK_MONOTONIC, &t2);
 
@@ -110,7 +110,7 @@ int main(){
         // system(comm);
 
         char* comm_[2] = {NULL};
-        execvp("./new.sh", comm_);
+        execvp("./kernel3.sh", comm_);
     }
     // clock_gettime(CLOCK_MONOTONIC, &t2);
 
