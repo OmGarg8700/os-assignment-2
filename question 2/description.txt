@@ -1,0 +1,14 @@
+Write a system call, using functions like __copy_from_user and __copy_to_user (destination, source, number of bytes)
+
+Then added a system call in syscall_64.tbl and sys.c with number 451.
+
+Made diff and test file:
+Generated a test file to test 4*4 matrix which prints the source and checks the matrix.
+
+Make a patch file using diff command
+
+diff src dest > new.patch
+
+https://github.com/om21481/patch-file/tree/main
+
+bash file could not be uploaded
