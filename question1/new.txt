@@ -1,0 +1,12 @@
+DNA methyltransferases (DNMT) are a family of enzymes consisting of members DNMT1, DNMT3a and DNMT3b that mediate DNA methylation.
+
+These members have different and integral roles to execute DNA methylation; DNMT1 is involved in the maintenance of methylation patterns while DNMT3a and DNMT3b are responsible for de novo methylation, that is, methylating DNA that is previously unmethylated [12].
+
+DNA methylation signatures are developed during cell differentiation for the purpose of supressing genes with functions that are unnecessary to the mature cell.
+
+ This de novo methylation is carried out by DNMT3a and DNMT3b [13].
+After differentiation, DNMT1 replicates these methylation patterns in the process of mitosis 
+
+Unstimulated cells express small amounts of DNMT1, but following mitogenic stimulation the enzyme is upregulated by a sequence of pathways including MAPK/ERK and JNK
+
+DNMT1 is then able to maintain methylation patterns in the DNA by producing symmetrically methylated sites in parent and daughter DNA strands. 
